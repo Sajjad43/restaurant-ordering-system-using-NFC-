@@ -1,0 +1,214 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0FFFF"
+    android:orientation="vertical">
+
+     
+     
+    <RelativeLayout 
+           android:background="#9ACD32"        
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+         >  
+   
+     
+     
+      <ImageView
+      
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:src="@drawable/open"
+         android:layout_centerInParent="true"
+         
+        
+         />
+
+    
+
+    
+    
+    
+        <Button
+      
+         android:id="@+id/back"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="60dp"
+         android:textStyle="bold"
+         android:text="Back"
+         android:textColor="#008000"
+         android:layout_alignParentRight="true"
+         android:textSize="20dp" />
+    
+     
+     
+     
+     
+     
+  </RelativeLayout>
+     
+    
+    
+    <RelativeLayout
+        
+           android:background="#F0E68C"        
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+        
+        
+        
+         >
+        
+        
+        
+        
+        <TextView 
+            
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="6dp"
+          android:textStyle="bold"
+          
+          android:text="Payment"
+          android:background="#F0E68C"   
+          android:layout_centerInParent="true"
+          android:textSize="20dp"
+        
+            
+            
+            />
+        
+        
+        
+        
+        
+        
+    </RelativeLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <RelativeLayout 
+        
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:background="#C0C0C0"
+         >  
+      
+        <TextView
+             
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:padding="5dip"
+            android:layout_weight="0"
+            android:text="#"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:textSize="20dp" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="5dip"
+            android:layout_weight="1"
+            android:text="Item"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            />      
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp" 
+            android:layout_alignParentRight="true" 
+            android:layout_weight="0"
+            android:textStyle="bold"       
+            android:text="Price"
+            android:textSize="20dp"
+            android:paddingRight="5dp"
+            />
+     
+   </RelativeLayout>  
+     
+     
+     
+    <ListView
+        android:id="@+id/receipt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+          />  
+
+   
+    
+    
+    
+      
+    <RelativeLayout 
+        
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+      android:background="#F0E68C"
+         
+      >  
+      	 
+        
+      
+        
+         <ImageButton
+            android:id="@+id/pay_pal"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pay"
+            />
+
+        <TextView
+            android:id="@+id/amount_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: "
+            android:textColor="#696969"  
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@+id/amount_2"
+            android:layout_marginTop="10dp" 
+            android:textSize="25dp" 
+            />
+             
+        <TextView
+            android:id="@+id/amount_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="$10.25"
+            android:layout_alignParentRight="true" 
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textColor="#696969"  />
+              
+          
+        
+        
+        
+        
+        
+    </RelativeLayout> 
+     
+    
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+      
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             
+            android:padding="5dip"
+            android:layout_weight="0"
+            android:textColor="#000000"   
+            
+            />
+        <TextView
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" 
+            android:padding="5dip"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:textColor="#000000"   
+             
+          
+                      />      
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"  
+            android:gravity="left|center_vertical"
+            android:layout_weight="0"    
+            android:paddingRight="10dp"   
+            android:textColor="#000000"   
+          
+            />
+  
+   </RelativeLayout> 

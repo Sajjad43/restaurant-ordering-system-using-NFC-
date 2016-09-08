@@ -1,0 +1,92 @@
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myListViewWithHeader"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#9ACD32"
+     android:orientation="vertical" >
+
+    
+    
+   <RelativeLayout 
+       
+       
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        
+       
+       >  
+    
+    <ImageView
+      
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:src="@drawable/open"
+        android:layout_alignParentLeft="true"  
+         
+        
+         />
+
+    
+
+    
+    
+    
+        <Button
+      
+         android:id="@+id/proceed_pay"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="60dp"
+         android:textStyle="bold"
+         android:text="Proceed to Pay"
+     
+         android:textColor="#008000"
+         android:layout_alignParentRight="true"
+         android:textSize="20dp" />
+    
+    
+    
+    
+    </RelativeLayout>
+    
+   <RelativeLayout
+       
+       
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F0E68C"    
+            
+    >  
+     
+   
+       <TextView
+      
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:textStyle="bold"
+         
+        android:text="Menu"
+        android:background="#F0E68C"   
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        
+         />
+
+   </RelativeLayout> 
+   
+    
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false" />
+
+    
+         
+</LinearLayout>

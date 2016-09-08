@@ -1,0 +1,84 @@
+  <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      
+     >
+
+    <!-- The main content view -->
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!-- The navigation drawer -->
+
+   <LinearLayout 
+          android:id="@+id/drawer_view"
+          android:layout_width="match_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical"
+          android:layout_gravity="start"
+          android:background="#ADFF2F"   
+     >  
+ 
+      
+      
+  <!--       
+     <ImageView 
+         
+          android:layout_width="fill_parent"
+          android:layout_height="100dp"
+          android:src="@drawable/subway_2"
+              
+         
+      />  
+       
+       
+       -->  
+       
+       
+    <LinearLayout 
+        
+        
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="#F0E68C"
+        
+        >
+        
+        <TextView 
+            
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Food Category" 
+           android:textSize="20dp"
+           android:padding="2dp"
+            
+       
+            
+            
+            />
+        
+        
+        
+        
+    </LinearLayout>   
+       
+       
+       
+       
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:choiceMode="singleChoice"
+        android:background="#90EE90"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" 
+        />
+
+   
+</LinearLayout>
+</android.support.v4.widget.DrawerLayout>
